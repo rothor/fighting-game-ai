@@ -1,0 +1,3 @@
+local executeStr = "octave --no-window-system \"" .. scriptPath .. "createRandomTheta.m\""
+os.execute(executeStr)
+
